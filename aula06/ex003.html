@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            color: white;
+            font: normal;
+        }
+        h1{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, teste</h1>
+    <p>teste</p>
+
+    <script>
+    // prompt recebe sempre string
+    // é preciso converter string em numero
+    // pode ser usado o Number.parseInt(n) (números inteiros)
+    // pode ser usado o Number.parseFloat(n) (números reais)
+    // podemos usar o Number(n)
+
+    // para converter de número para string
+    // Pode ser utilizado String(n) ou o n.toString()
+     
+
+      var n1 = Number(window.prompt('Digite um número: '))
+      var n2 = Number(window.prompt('Digite outro número: '))
+      var s = n1 + n2 // é preciso converter string em numero
+      window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) 
+    </script>
+</body>
+</html>
